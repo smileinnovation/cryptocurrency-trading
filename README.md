@@ -4,7 +4,7 @@ __summary__:
 
 - [Description](#description)
 - [Install](#install)
-- [Documentation](#documentation)
+- [Documentation](#references)
 
 
 ## Description
@@ -25,7 +25,7 @@ __Run :__
 make
 ```
 
-> more informations about Makefile commands in the [documentation section](#documentation)
+> more informations about Makefile commands in the [documentation section](#references)
 
 Open your browser and visit the link `localhost:8888`.
 
