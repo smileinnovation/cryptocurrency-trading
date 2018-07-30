@@ -1,0 +1,10 @@
+version: "3"
+services:
+  jupyter:
+    build: .
+    volumes:
+      - ./src:/opt/notebooks
+    ports:
+      - "8888:8888"
+volumes:
+  jupyter-volumes:
