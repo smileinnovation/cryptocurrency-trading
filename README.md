@@ -4,6 +4,7 @@ __summary__:
 
 - [Description](#description)
 - [Install](#install)
+- [Notebook](#notebook)
 - [Documentation](#references)
 
 
@@ -30,6 +31,29 @@ make
 Open your browser and visit the link `localhost:8888`.
 
 The notebook used is `src/Financial_presentation.ipynb`.
+
+## Notebook
+
+You have to know 2 tips for this notebook:
+
+1. The dataset is not in the repository.
+> The size of this file is too big to be uploaded on Github.
+>
+> You can create your own dataset with this '[data crawler](https://github.com/sky54000/Scroller_bittrex_websocket_node)'
+
+2. The function `get_data()` is not implemented.
+```
+The object construct by this function must have this format:
+  [
+    {
+      "name": "Your market name (ex. BTC-NEO)",
+      "data": "Pandas dataframe of the market(with a chronological order)"
+    },
+  ]
+example:
+
+  [ {"name":"BTC-ETH", "data":<class 'pandas.core.frame.DataFrame'>} ]
+```
 
 ## References
 
