@@ -34,7 +34,7 @@ The notebook used is `src/Financial_presentation.ipynb`.
 
 ## Notebook
 
-You have to know 2 tips for this notebook:
+You have to know 3 tips for this notebook:
 
 1. The dataset is not in the repository.
 > The size of this file is too big to be uploaded on Github.
@@ -54,6 +54,15 @@ example:
 
   [ {"name":"BTC-ETH", "data":<class 'pandas.core.frame.DataFrame'>} ]
 ```
+
+3. Data format:
+
+| **index** | **ask** |**base_volume** | **bid** | **date** | **high** | **id** | **id_bot** | **last** |	**low** |	**marketName** | **moy_prev_day** | **open_buy_orders** | **open_sell_orders** |**volume** |
+|:--:|:---:|:-----:|:--------:|:-----:|:--------:|:-------:|:--------:|:--------:|:------:|:--------:|:---------:|:--------:|:--------:|:----------:|
+| `int` | `int` | `float` | `int` | `str` | `int` | `int` | `int` | `int` | `int` | `str` | `int` | `int` | `int` | `float` |
+| 0 |	72 | 	0.61017 |	70 |	2018-04-04 04:30:30 |	72 |	1597|	4242|	72|	68|	BTC-2GIVE|	69|	113|	979|	869022.0|
+  This dataset was collected with this software : [Data crawler](https://github.com/sky54000/Scroller_bittrex_websocket_node)
+  > Only features listed in the "labelisation_features_name" (`settings` dictionary) are used to your model.
 
 ## References
 
