@@ -61,6 +61,7 @@ example:
 |:--:|:---:|:-----:|:--------:|:-----:|:--------:|:-------:|:--------:|:--------:|:------:|:--------:|:---------:|:--------:|:--------:|:----------:|
 | `int` | `int` | `float` | `int` | `str` | `int` | `int` | `int` | `int` | `int` | `str` | `int` | `int` | `int` | `float` |
 | 0 |	72 | 	0.61017 |	70 |	2018-04-04 04:30:30 |	72 |	1597|	4242|	72|	68|	BTC-2GIVE|	69|	113|	979|	869022.0|
+
   This dataset was collected with this software : [Data crawler](https://github.com/sky54000/Scroller_bittrex_websocket_node)
   > Only features listed in the "labelisation_features_name" (`settings` dictionary) are used to your model.
 
